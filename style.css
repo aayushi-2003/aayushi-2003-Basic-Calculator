@@ -1,0 +1,64 @@
+body{
+    background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+    max-width: 400px;
+    box-shadow: 0px 0px 80px 10px rgb(206, 21, 92);
+    margin: 10vh auto;
+    background:white;
+    
+}
+
+#display-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color:#F27121;
+    color: white;
+    font-family: 'Roboto Mono', monospace;;
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 16px 8px;
+    font-size: 25px;
+}
+
+.button{
+    display: grid;
+    border-bottom: 1px solid rgb(237, 138, 156);
+    border-left: 1px solid rgb(237, 138, 156) ;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.button>div{
+    border-top: 1px solid rgb(237, 138, 156);
+    border-right: 1px solid rgb(237, 138, 156) ;
+
+}
+
+.buttons{
+    text-align: center;
+    border: 0.5px solid rgb(237, 138, 156);
+    line-height: 80px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+#equal{
+    background-color: rgb(154, 9, 170);
+    color: white;
+}
+.buttons:hover{
+    background: #f40862;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
